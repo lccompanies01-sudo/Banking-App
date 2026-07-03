@@ -72,7 +72,9 @@ void signin(){
 void deposit(){
 
     if(!account){
-        cout << "Please Make A Account To Use This Program";
+        cout << "Please Make A Account To Use This Program \n";
+
+        mainloop();
     }
 
     else{
@@ -99,7 +101,8 @@ void withdrawl(){
     int amount;
 
 if(!account){
-    cout << "Please Make A Account To Use This Program";
+    cout << "Please Make A Account To Use This Program \n";
+    mainloop();
 }
 
 
